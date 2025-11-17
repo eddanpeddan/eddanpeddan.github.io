@@ -13,13 +13,13 @@
 
     .hero {
       background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80') center/cover;
-      height: 60vh;
+      height: 40vh;
       display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
+      align-items: flex-start;
+      justify-content: flex-start;
+      text-align: left;
       color: #fff;
-      padding: 2rem;
+      padding: 3rem 2rem 1rem 2rem;
     }
     .hero h2 { font-size: 2.5rem; text-shadow: 0 0 8px #000; }
 
@@ -156,3 +156,4 @@
   </footer>
 </body>
 </html>
+
